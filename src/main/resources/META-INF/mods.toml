@@ -1,0 +1,28 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]] #mandatory
+modId="devsepicenes" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Devs Epicenes" #mandatory
+updateJSONURL="http://myurl.me/" #optional
+displayURL="http://example.com/" #optional
+logoFile="devsepicenes.png" #optional
+credits="DevMaster1015 for making the mod" #optional
+authors="DevMaster1015 aka RedRoseWarrior1" #optional
+description='''
+Adds a bunch of random and unique things to Minecraft
+'''
+[[dependencies.examplemod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[31,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
